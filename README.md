@@ -7,6 +7,6 @@
 <ul>
   <li>There is need to activate the reference of Microsoft AcitveX Data Object X.X Library, where X.X is the most recent version you have.</li>
   <li></li>
-<ul>
+</ul>
 
 <h3>Late Binding</h3>
