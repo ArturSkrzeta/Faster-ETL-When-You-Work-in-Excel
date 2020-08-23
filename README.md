@@ -8,8 +8,8 @@
   <li>There is need to activate the reference of Microsoft AcitveX Data Object X.X Library, where X.X is the most recent version you have.</li>
   <li>We need to get connection string:
     <ul>
-      <li>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=<c:\myFolder\myExcel2007file.xlsx>; Extended Properties="Excel 12.0 Xml;HDR=YES";</li>
-      <li>Replace <c:\myFolder\myExcel2007file.xlsx> with your Excel source path</li>
+      <li>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=$c:\myFolder\myExcel2007file.xlsx$; Extended Properties="Excel 12.0 Xml;HDR=YES";</li>
+      <li>Replace $c:\myFolder\myExcel2007file.xlsx$ with your Excel source path</li>
     </ul>
   </li>
   <li>Within string query we need to specify data we want to retrieve from excel source we defined witin connection.</li>
