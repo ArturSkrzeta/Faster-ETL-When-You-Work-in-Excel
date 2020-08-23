@@ -6,7 +6,10 @@
 <h3>Early Binding</h3>
 <ul>
   <li>There is need to activate the reference of Microsoft AcitveX Data Object X.X Library, where X.X is the most recent version you have.</li>
-  <li></li>
+  <li><We need to get connection string:/li>
+    <ul>
+      <li>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=c:\myFolder\myExcel2007file.xlsx;Extended Properties="Excel 12.0 Xml;HDR=YES";</li>
+    </ul>
 </ul>
 
 <h3>Late Binding</h3>
