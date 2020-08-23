@@ -13,6 +13,11 @@
     </ul>
   </li>
   <li>Within string query we need to specify data we want to retrieve from excel source we defined witin connection.</li>
+  <li>Let's say we want to retrieve all the data from worksheet Sales. Then, the query should look like below:
+    <ul>
+      <li>"SELECT * FROM [Sales$]</li>
+    </ul>
+  </li>
 </ul>
 
 <h3>Late Binding</h3>
