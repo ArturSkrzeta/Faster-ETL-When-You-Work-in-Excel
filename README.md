@@ -1,2 +1,5 @@
-# Faster-ETL-When-You-Work-in-Excel
-When you work with Excel, the big part of it is...
+<h2>Faster-ETL-When-You-Work-in-Excel</h2>
+<h3>Intro</h3>
+<p>In this project I take advantage of ADO which stands for ActiveX Data Obecjts. If you work with Excel and you need to get a data into your wokrsheet, ADO makes any type of data source accessible for you. It can be SQL Server, Access data base, or regular Excel.</p>
+<p>A lot of work in excel depends on copy pasting data from excel to excel. Doing it manually, requires you to open each excel, copy data, and append the data to an exitistig one and close the source. We can simply automate this step by writing a macro. However the mistake that people make is duplicates those steps in the code, having to open and close source excel. It is ok when you have 1, 2 or 3 sources excel. However when you work with multiple excels, this may be consuming a lot of time. Especially when you copy data by selecting range and making a copy method on it. That prolongs whole process as well.</p>
+<p>Here come ADO to make it faset without opening each excel and without selecting range to copy in every source.</p>
