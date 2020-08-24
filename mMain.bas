@@ -24,7 +24,7 @@ Sub Main()
     Dim sourceStr       As String:          sourceStr = sourceDb & "." & sourceWs
     
     
-    ' - - - guery SELECT with source string appended
+    ' - - - query SELECT with source string appended
     Dim qry             As String:          qry = "SELECT * FROM " & sourceStr
     
     ' - - - setting connection
