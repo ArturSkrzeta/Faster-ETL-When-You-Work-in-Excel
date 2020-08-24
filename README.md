@@ -12,10 +12,10 @@
       <li>I replaced $c:\myFolder\myExcel2007file.xlsx$ with following: ThisWorkbook.FullName</li>
     </ul>
   </li>
-  <li>Within string query we need to specify data we want to retrieve from excel source we defined witin connection.</li>
-  <li>Let's say we want to retrieve all the data from worksheet Sales. Then, the query should look like below:
+  <li>We define data source within SQL string query.</li>
+  <li>Let's say we want to retrieve all the data from worksheet Sales in data.xlsx. Then, the query should look like below:
     <ul>
-      <li>"SELECT * FROM [Sales$]</li>
+      <li>SELECT * FROM [Excel 12.0;HDR=YES;DATABASE=C:\Users\U742905\Documents\etl_wit_excel\data.xlsx].[Sheet1$]</li>
     </ul>
   </li>
 </ul>
